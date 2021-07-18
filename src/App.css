@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  --desaturated-violet: rgb(144, 111, 200);
+  --very-ligt-gray: rgb(249, 249, 249);
+  --white-smoke: rgba(239, 239, 239, 0.75);
+  --dark-gray-25: rgba(146, 146, 145, 0.25);
+  --dark-gray-75: rgba(146, 146, 145, 0.75);
 }
 
 .App-logo {
@@ -20,7 +24,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 

@@ -1,0 +1,89 @@
+.main {
+  margin-top: 3rem;
+  margin-left: 28rem;
+  align-items: center;
+  display: grid;
+  grid-template-rows: 2fr 5fr 2fr;
+}
+.title {
+  font-size: 18px;
+  padding-right: 5rem;
+}
+
+.main-title {
+  color: var(--desaturated-violet);
+  font-weight: 700;
+}
+
+.content-description {
+  font-size: 10px;
+  font-weight: 100;
+}
+.content-description p {
+  margin-bottom: 0;
+}
+
+.main-buttons {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.master-plan {
+  background-color: var(--desaturated-violet);
+  color: #f6f2fa;
+  padding: 0.25rem 1.5rem 0.25rem 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  height: 2rem;
+  display: inline;
+  line-height: 1.5rem;
+  font-size: 12px;
+  border: 1px solid var(--desaturated-violet);
+  border-radius: 50rem;
+}
+
+.tower {
+  background-color: var(--white-smoke);
+  color: var(--dark-gray-75);
+  padding: 0.25rem 1.5rem 0.25rem 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  height: 2rem;
+  display: inline;
+  font-size: 12px;
+  border: 1px solid var(--white-smoke);
+  border-radius: 50rem;
+}
+.active {
+  background-color: var(--dark-gray-75);
+  color: var(--dark-gray-25);
+  border-radius: 50rem;
+}
+
+.button {
+  margin: 0 0.5rem;
+}
+
+.filters {
+    margin:0 0.5rem;
+    font-weight: 500;
+    margin-right: 4rem;
+    padding-left:1rem;
+    border-left: 3px solid var(--dark-gray-25)
+}
+
+.layout-image {
+    place-self: center;
+}
+.layout-image img {
+    max-height: 15rem;
+}
+
+.next-prev-buttons {
+    place-self: center;
+}
+.next-prev-buttons button {
+    margin: 0 1rem;
+    font-size: 18px;
+}

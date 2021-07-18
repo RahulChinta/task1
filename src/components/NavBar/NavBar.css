@@ -1,0 +1,46 @@
+.navbar {
+  border-bottom: 3px solid #efefef;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(146, 146, 146, 0.75);
+  padding-right: 1.5rem !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgba(146, 146, 146, 0.25);
+}
+
+.navbar-light .navbar-nav .dates {
+  padding-left: 2rem !important;
+  padding-right: 0.5rem !important;
+}
+
+.brand-image {
+  width: 4.5rem;
+  height:2.3rem;
+  margin-left:1rem !important;
+}
+
+.broucher {
+  border-right: 3px solid #efefef;
+}
+
+.register {
+  color: var(--desaturated-violet) !important;
+  opacity: 0.75;
+}
+
+.login {
+  background-color: var(--desaturated-violet) !important;
+  color: #f6f2fa !important;
+  margin-right: 2rem !important;
+  padding: 0 1.75rem !important;
+  font-family: "Roboto", sans-serif;  
+  font-weight: 500;
+  height: 1.6rem;
+  line-height: 1.5rem;
+  font-size: 12px !important;
+  align-self: center;
+}
